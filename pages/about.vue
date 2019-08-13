@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2>Welcome to the best corny dad jokes app on the web</h2>
+    <h1>About Dad Jokes</h1>
+    <p>This is an app that displays corny dad jokes</p>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 export default {
   head() {
     return {
-      title: "Welcome to dad jokes",
+      title: "About the App",
       meta: [
         {
           hid: "Description",
@@ -21,6 +22,5 @@ export default {
 };
 </script>
 
-<style>
-
+<style lang="scss" scoped>
 </style>
